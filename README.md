@@ -43,5 +43,13 @@ Converting categorical data to numerical data:  Some features are ordinal and so
 Finally, I separated the test and train data. New cleaned test and train data have shape of (1459, 234) and (1421, 234).
 
 
-# 
+# Modeling
+Based on EDA, I chose following models to try:
+Lasso, 
+RandomForestRegressor,
+ElasticNet, 
+KernelRidge and
+GradientBoostingRegressor
 
+At first I tried with defult parameter and used RMSE as evaluation metric. KernelRidge regression gives lowest RMSE which is 0.120578.
+I used grid search method, to find the best parameter. With the best parameters lowest MRSE is given by Lasso and the improved  RMSE is 0.113286. 
