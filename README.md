@@ -20,6 +20,7 @@ As a part of data cleaning I have impelemented following steps:
 'BsmtFinSF1'>1400 & 'SalePrice'<400000
 'TotalBsmtSF'>5000 & 'SalePrice'<300000
 '1stFlrSF'>4000   & 'SalePrice'<300000
+:[Tulips.jpg]
 
 Before checking the missing data I merge the train and test data together. Because to evalute models test data also need to be cleaned. So i cleaned them all together.
 
