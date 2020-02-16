@@ -1,6 +1,6 @@
 # Do you want to know how much your house worth? Here is my approach.
 
-As you can guess the price of any house varies on different features like size, area, age and so son. And it's always difficult to find the accurate price of the house without analysing properly. In this project, I examined 79 explotory variables describing (almost) every aspect of residential homes in Ames, Iowa, and predicted the price of each house.
+As you can guess the price of any house varies on different features like size, area, age and so son. And it's always difficult to find the accurate price of the house without analysing properly. In this project, I examine 79 explotory variables describing (almost) every aspect of residential homes in Ames, Iowa, and predict the price of each house.
 
 # Data 
 I collected data from Kaggle competition. Kaggler's were challenged to predict the house of residential homes in Ames, Iowa. There are two data files. One of them is train data and the other one is test data. Both of them have same number of rows and columns except the target columns on test data. The dataset has total of 79 features and 1460 records. There is no duplicate entries but missing value. 
@@ -44,7 +44,7 @@ Finally, I separated the test and train data. New cleaned test and train data ha
 
 
 # Modeling
-Based on EDA, I chose following models to try:
+Based on EDA, I  chose following models to try:
 Lasso, 
 RandomForestRegressor,
 ElasticNet, 
