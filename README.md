@@ -14,6 +14,9 @@ House_Price_Prediction - This notebook contains data preprocessing, modeling, pa
 As a part of data cleaning I have impelemented following steps:
 * Removed the id columns because, id column does not have any contribution to prediction.
 * Removed suspicious outliers at salaries above 700,000. Box plot indicates salaries above 700,000 are very far from the 4th quartile.
+![SalePrice](https://user-images.githubusercontent.com/33338872/74671615-3032a080-5171-11ea-9340-1f8b6c63e7c0.jpg)
+
+
 * After further analysis, i also determined to remove following entries:
 'GrLivArea'>4000 and 'SalePrice'<300000
 'LotFrontage'>250  & 'SalePrice'<300000
