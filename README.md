@@ -23,7 +23,13 @@ As a part of data cleaning I have impelemented following steps:
 'BsmtFinSF1'>1400 & 'SalePrice'<400000
 'TotalBsmtSF'>5000 & 'SalePrice'<300000
 '1stFlrSF'>4000   & 'SalePrice'<300000
-:[Tulips.jpg]
+
+![GrLivArea](https://user-images.githubusercontent.com/33338872/74672525-11cda480-5173-11ea-887e-b6a044112636.jpg)
+![LotFrontage](https://user-images.githubusercontent.com/33338872/74672354-b69bb200-5172-11ea-9fd8-0cbb5c542491.jpg)
+![BsmtFinSF1](https://user-images.githubusercontent.com/33338872/74672407-d337ea00-5172-11ea-9e1f-fe159049e960.jpg)
+![TotalBsmtSF](https://user-images.githubusercontent.com/33338872/74672576-3164cd00-5173-11ea-9baf-631d267a3e0d.jpg)
+![1stFlrSF](https://user-images.githubusercontent.com/33338872/74672414-d632da80-5172-11ea-9290-0b72eb6f3e3c.jpg)
+
 
 Before checking the missing data I merge the train and test data together. Because to evalute models test data also need to be cleaned. So i cleaned them all together.
 
