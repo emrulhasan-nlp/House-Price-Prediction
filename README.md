@@ -43,7 +43,14 @@ All together, there are total of 35 entries with missing values. PoolQC, MiscFea
 # Exploratory data analysis
 First of all, looking tat categorical data, lotshape indicates SalePrice increases slowly with lotshape. Lot configuration doesnot much depend on SalePrice. It is obvious that SalePrice increases smoothly with Heating Quality. Average saleprice is pretty much same for BsmtFintype2.
 
+![LotShape](https://user-images.githubusercontent.com/33338872/74752622-946a6880-5234-11ea-918d-c17c25f534b1.jpg)
+![HeatingQC](https://user-images.githubusercontent.com/33338872/74752706-b8c64500-5234-11ea-8c9d-de07dd85f35b.jpg)
+![BsmtFinType2](https://user-images.githubusercontent.com/33338872/74752858-ec08d400-5234-11ea-8f05-17cad48bef73.jpg)
+![LotConfig](https://user-images.githubusercontent.com/33338872/74756531-5112f880-523a-11ea-930f-c1f063c6b64c.jpg)
+
 Moving into numerical data, TotalBsmtSF, 1stFlrSF, 2ndFlrSF, GarageArea and GrLivArea are linearly correlated with SalePric. Finally looking at the data correlation plot, it is obvious that OverallQual is the highly correlated feautre followed by GrLivArea, GarageCars, Garage Area and TotalBsmtSF. 1stFlrSF, FullBath and YearBuilt have same correlation with SalePrice. Least correlated feature is BsmtFinSF1.
+
+![Correlation](https://user-images.githubusercontent.com/33338872/74756561-5bcd8d80-523a-11ea-963e-a9f81fc0253a.jpg)
 
 Since GrLivArea and Garage Area have high influence on Saleprice we can create a new features call total area.
 Some of the columns are numerical but they are actually categorical. They are 'MSSubClass', 'OverallCond', 'YrSold', 'MoSold'. These columns are converted into categorical columns.
