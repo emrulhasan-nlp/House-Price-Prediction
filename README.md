@@ -50,8 +50,6 @@ First of all, looking tat categorical data, lotshape indicates SalePrice increas
 
 Moving into numerical data, TotalBsmtSF, 1stFlrSF, 2ndFlrSF, GarageArea and GrLivArea are linearly correlated with SalePric. Finally looking at the data correlation plot, it is obvious that OverallQual is the highly correlated feautre followed by GrLivArea, GarageCars, Garage Area and TotalBsmtSF. 1stFlrSF, FullBath and YearBuilt have same correlation with SalePrice. Least correlated feature is BsmtFinSF1.
 
-![Correlation](https://user-images.githubusercontent.com/33338872/74756561-5bcd8d80-523a-11ea-963e-a9f81fc0253a.jpg)
-
 Since GrLivArea and Garage Area have high influence on Saleprice we can create a new features call total area.
 Some of the columns are numerical but they are actually categorical. They are 'MSSubClass', 'OverallCond', 'YrSold', 'MoSold'. These columns are converted into categorical columns.
 
