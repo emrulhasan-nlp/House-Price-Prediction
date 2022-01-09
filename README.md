@@ -68,3 +68,5 @@ GradientBoostingRegressor
 
 At first I tried with defult parameter and used RMSE as evaluation metric. KernelRidge regression gives lowest RMSE which is 0.120578.
 I used grid search method, to find the best parameter. With the best parameters lowest MRSE is given by Lasso and the improved  RMSE is 0.113286. 
+
+Thanks for reading my project!
